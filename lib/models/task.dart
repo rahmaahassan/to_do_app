@@ -6,6 +6,6 @@ class Task {
   Task({
     this.title,
     this.date,
-    this.status,
+    this.status = false,
   });
 }
